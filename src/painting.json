@@ -1,0 +1,34 @@
+[
+	{
+		"id": "id-1",
+		"url": "https://static-cse.canva.com/blob/847064/29.jpg",
+		"title": "Feathers. Art",
+		"author": {
+			"tag": "rotobus",
+			"blog": "blogs"
+		},
+		"price": 500,
+		"quantity": 10
+	},
+		{
+		"id": "id-2",
+		"url": "https://s.mind.ua/img/forall/a/202254/0.jpg?1619607499",
+		"title": "Bob Art",
+		"author": {
+			"tag": "nekrus",
+			"blog": "blogs"
+		},
+		"price": 500,
+		"quantity": 15
+	},	{
+		"id": "id-3",
+		"url": "https://orendor.ru/wp-content/uploads/2022/10/1fafda8042c4c1b6a027ce28cbc9b086.jpg",
+		"title": "Feathers. Art",
+		"author": {
+			"tag": "rotobus",
+			"blog": "blogs"
+		},
+		"price": 500,
+		"quantity": 5
+	}
+]
