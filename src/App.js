@@ -1,9 +1,17 @@
-import Painting from "./components/Painting";
+import PaintingList from './components/PaintingList';
+import Section from './components/Section';
 import paintings from './paintings.json';
 export default function App() {
 	return ( 
 		<div>
-			{paintings.map(paint => (
+			{/* <PaintingList items={paintings} /> */}
+			<Section title="Топ недели"> 
+{/* //можно вставить один компонентк в другой как children */}
+				<PaintingList items={paintings} /> 
+{/* //можно вставить один компонентк в другой как children */}
+			</Section>
+			<Section />
+			{/* {paintings.map(paint => (
 				< Painting // компонент
 		key={paint.id} // ключ что бы не было ошибок при рендре разметки
 		imageUrl={paint.url} // пропсы
@@ -12,7 +20,7 @@ export default function App() {
 		author={paint.author.blog} // пропсы
 		quantity={paint.quantity}
 			/>
-			))}
+			))} */}
 	
 					{/* < Painting
 		imageUrl={painting[1].url}

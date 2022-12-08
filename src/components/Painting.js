@@ -21,10 +21,10 @@ export default function Painting(props) {
 }
 //Проверяем на тип данных
 Painting.propTypes = {
-	imageUrl: PropTypes.string,
-	title: PropTypes.string,
-	price: PropTypes.number,
-	author: PropTypes.string,
+	imageUrl: PropTypes.string.isRequired, // isRequired
+	title: PropTypes.string.isRequired,
+	price: PropTypes.number.isRequired,
+	author: PropTypes.string.isRequired,
 };
 //может быть
 // MyComponent.propTypes = {
